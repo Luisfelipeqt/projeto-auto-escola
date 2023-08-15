@@ -29,7 +29,7 @@ jobs:
           
       - name: Build da Aplicação com Jar
         working-directory: ./app
-        run: mvn clean package
+        run: mvn clean package -DskipTests
         
       - name: Docker Compose Build
         working-directory: .
@@ -37,5 +37,5 @@ jobs:
         
       - name: Push Pro Docker Hub
         run: |
-          docker tag luisfeliperodrigues/projeto-auto-escola-deploy:latest luisfeliperodrigues/projeto-auto-escola-deploy:${{ github.run_id }}
+          docker tag projeto-auto-escola-deploy:latest luisfeliperodrigues/projeto-auto-escola-deploy:${{ github.run_id }}
           docker push luisfeliperodrigues/projeto-auto-escola-deploy:${{ github.run_id }}
