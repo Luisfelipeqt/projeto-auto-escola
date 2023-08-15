@@ -13,6 +13,7 @@ C:\Users\luisf\OneDrive\햞ea de Trabalho\projeto\app\src\main\java\com\example\m
 C:\Users\luisf\OneDrive\햞ea de Trabalho\projeto\app\src\main\java\com\example\monitoramento\api\service\aluno\AlunoServiceImpl.java
 C:\Users\luisf\OneDrive\햞ea de Trabalho\projeto\app\src\main\java\com\example\monitoramento\api\service\instrutor\IInstrutorService.java
 C:\Users\luisf\OneDrive\햞ea de Trabalho\projeto\app\src\main\java\com\example\monitoramento\domain\repository\TelefoneRepository.java
+C:\Users\luisf\OneDrive\햞ea de Trabalho\projeto\app\src\main\java\com\example\monitoramento\api\controller\CfcController.java
 C:\Users\luisf\OneDrive\햞ea de Trabalho\projeto\app\src\main\java\com\example\monitoramento\api\service\instrutor\InstrutorServiceImpl.java
 C:\Users\luisf\OneDrive\햞ea de Trabalho\projeto\app\src\main\java\com\example\monitoramento\domain\repository\CFCRepository.java
 C:\Users\luisf\OneDrive\햞ea de Trabalho\projeto\app\src\main\java\com\example\monitoramento\domain\entities\Instrutor.java
@@ -30,6 +31,7 @@ C:\Users\luisf\OneDrive\햞ea de Trabalho\projeto\app\src\main\java\com\example\m
 C:\Users\luisf\OneDrive\햞ea de Trabalho\projeto\app\src\main\java\com\example\monitoramento\domain\entities\Telefone.java
 C:\Users\luisf\OneDrive\햞ea de Trabalho\projeto\app\src\main\java\com\example\monitoramento\api\dtos\AlunoResponse.java
 C:\Users\luisf\OneDrive\햞ea de Trabalho\projeto\app\src\main\java\com\example\monitoramento\domain\exceptions\CfcNotFoundException.java
+C:\Users\luisf\OneDrive\햞ea de Trabalho\projeto\app\src\main\java\com\example\monitoramento\api\controller\InstrutorController.java
 C:\Users\luisf\OneDrive\햞ea de Trabalho\projeto\app\src\main\java\com\example\monitoramento\domain\entities\Cfc.java
 C:\Users\luisf\OneDrive\햞ea de Trabalho\projeto\app\src\main\java\com\example\monitoramento\domain\exceptions\TelefoneNotFoundException.java
 C:\Users\luisf\OneDrive\햞ea de Trabalho\projeto\app\src\main\java\com\example\monitoramento\domain\entities\enums\TelefoneTipo.java

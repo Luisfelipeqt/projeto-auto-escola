@@ -14,6 +14,8 @@ import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
+import static org.springframework.http.MediaType.*;
+
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/telefone/v1")
@@ -22,33 +24,34 @@ public class TelefoneController {
 
     private final ITelefoneService telefoneService;
 
-    @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(produces = APPLICATION_JSON_VALUE)
     public ResponseEntity<List<TelefoneResponse>> buscarListaDeTelefones() {
         return ResponseEntity.status(HttpStatus.OK).body(telefoneService.buscarListaDeTelefones());
     }
 
-    @GetMapping(value = "/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<Optional<TelefoneResponse>> buscarTelefone(@PathVariable(value = "id") UUID id) {
+    @GetMapping(value = "/{id}", produces = APPLICATION_JSON_VALUE)
+    public ResponseEntity<Optional<TelefoneResponse>> buscarTelefone(@PathVariable UUID id) {
         return ResponseEntity.status(HttpStatus.OK).body(telefoneService.buscarTelefone(id));
     }
 
-    @PostMapping(produces = MediaType.APPLICATION_JSON_VALUE,
-                consumes = MediaType.APPLICATION_JSON_VALUE)
     @ResponseStatus(HttpStatus.CREATED)
+    @PostMapping(produces = APPLICATION_JSON_VALUE,
+                consumes = APPLICATION_JSON_VALUE)
     public void criarTelefone(@RequestBody @Valid TelefoneRequest telefoneRequest) {
         telefoneService.criarTelefone(telefoneRequest);
     }
 
-    @PutMapping(value = "/{id}", produces = MediaType.APPLICATION_JSON_VALUE,
-                                    consumes = MediaType.APPLICATION_JSON_VALUE)
     @ResponseStatus(HttpStatus.OK)
+    @PutMapping(value = "/{id}",
+            consumes = APPLICATION_JSON_VALUE,
+            produces = APPLICATION_JSON_VALUE)
     public void atualizarTelefone(@PathVariable UUID id, @RequestBody @Valid TelefoneRequest telefoneRequest) {
         telefoneService.atualizarTelefone(id, telefoneRequest);
 
     }
 
-    @DeleteMapping(value = "/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseStatus(HttpStatus.NO_CONTENT)
+    @DeleteMapping(value = "/{id}", produces = APPLICATION_JSON_VALUE)
     public void deletarTelefone(@PathVariable UUID id) {
         telefoneService.deletarTelefone(id);
     }

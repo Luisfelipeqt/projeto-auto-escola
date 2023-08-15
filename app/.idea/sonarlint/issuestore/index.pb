@@ -2,12 +2,6 @@
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-
-Osrc/main/java/com/example/monitoramento/domain/entities/constantes/Auditor.java,7\3\73e517708273517068ad57f888551d5e6aca1b15
-ä
-Zsrc/main/java/com/example/monitoramento/domain/entities/constantes/enums/TelefoneTipo.java,d\b\db6602de3365c775ac57599555cce708ed499548
-Ç
-Rsrc/main/java/com/example/monitoramento/domain/entities/constantes/enums/Sexo.java,3\6\366e6d646918d2346a0282f0046cc9e145ee4b6c
 y
 Isrc/main/java/com/example/monitoramento/domain/entities/enums/Estado.java,2\9\2985026c7977f1330330ce88eb48e3022c559ec8
 
@@ -18,8 +12,6 @@ Gsrc/main/java/com/example/monitoramento/domain/entities/enums/Sexo.java,2\3\23
 Nsrc/main/java/com/example/monitoramento/domain/repository/AlunoRepository.java,b\5\b51d9eb0d850f927e1f57f7264af911899c19b93
 |
 Lsrc/main/java/com/example/monitoramento/api/service/aluno/IAlunoService.java,8\f\8f3e0aff3a1430fc3a421903b188d459ce88bdc6
-x
-Hsrc/main/java/com/example/monitoramento/api/service/cfc/ICFCService.java,d\f\df892cdafb7f5f20f418c95213a47f1b90231255
 |
 Lsrc/main/java/com/example/monitoramento/domain/repository/CFCRepository.java,b\e\be72123cf713486b342ec5bb20dcdab880bc3d2f
 Ñ
@@ -28,8 +20,6 @@ Tsrc/main/java/com/example/monitoramento/api/service/instrutor/IInstrutorService
 Rsrc/main/java/com/example/monitoramento/domain/repository/InstrutorRepository.java,9\3\93ff09fb952de86182781362d7e41d7543379518
 á
 Wsrc/main/java/com/example/monitoramento/api/service/instrutor/InstrutorServiceImpl.java,8\0\80b3c858de3bb827aa13e9930557007e1bc1d7cb
-{
-Ksrc/main/java/com/example/monitoramento/api/service/cfc/CFCServiceImpl.java,4\f\4f2035f07dfb61ecb04538fd201820cdb4513d98
 Ç
 Rsrc/main/java/com/example/monitoramento/api/service/telefone/ITelefoneService.java,9\e\9eb5a007dd5d9552852e825970051b6f718c31ec
 Å
@@ -60,8 +50,6 @@ w
 Gsrc/main/java/com/example/monitoramento/api/dtos/InstrutorResponse.java,1\4\14a026bb845fb098c6e474f4fc6c26d00c3cec31
 s
 Csrc/main/java/com/example/monitoramento/api/dtos/AlunoResponse.java,f\e\fe33df1b94e64c21afb08431a3a171c30d7978a8
-~
-Nsrc/main/java/com/example/monitoramento/api/controller/TelefoneController.java,8\1\81cc43f6b09e145791fa468af75ad38dd6033236
 u
 Esrc/main/java/com/example/monitoramento/domain/entities/Endereco.java,5\e\5eaf3b2891947ed9ea9c240af1910580f0a40133
 p
@@ -70,14 +58,9 @@ v
 Fsrc/main/java/com/example/monitoramento/domain/entities/Instrutor.java,a\2\a22a0023db6dcfcac18f57c8e31f862c2385516a
 u
 Esrc/main/java/com/example/monitoramento/domain/entities/Entidade.java,f\7\f78e6f581215d1be31590eca71495cc76108bd86
-{
-Ksrc/main/java/com/example/monitoramento/api/controller/AlunoController.java,f\0\f0a2ae0df2a2169fadeb3fd70a7977b090a11f02
 u
 Esrc/main/java/com/example/monitoramento/domain/entities/Telefone.java,8\a\8a1083a08031f3d366609ad969dc584d0791c945
 r
 Bsrc/main/java/com/example/monitoramento/domain/entities/Aluno.java,9\4\943f8884f6ff9e092781a2f47fc3cec5579e1932
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-:
-
-Dockerfile,6\6\6651ddff6eb82c840ced7c1dddee15c6e1913dd4

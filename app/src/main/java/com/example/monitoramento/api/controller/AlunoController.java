@@ -26,13 +26,14 @@ public class AlunoController {
         return ResponseEntity.status(HttpStatus.OK).body(alunoService.buscarListaDeAlunos());
     }
 
-    @GetMapping(value = "/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<Optional<AlunoResponse>> buscarAluno(@PathVariable(value = "id") UUID id) {
+    @GetMapping(value = "/{id}",
+            produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<Optional<AlunoResponse>> buscarAluno(@PathVariable UUID id) {
         return ResponseEntity.status(HttpStatus.OK).body(alunoService.buscarAluno(id));
     }
 
     @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE,
-                 produces = MediaType.APPLICATION_JSON_VALUE)
+            produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseStatus(HttpStatus.CREATED)
     public void criarAluno(@RequestBody @Valid AlunoRequest alunoRequest) {
         alunoService.criarAluno(alunoRequest);
@@ -46,7 +47,8 @@ public class AlunoController {
         alunoService.atualizarAluno(id, alunoRequest);
     }
 
-    @DeleteMapping(value = "/{id}")
+    @DeleteMapping(value = "/{id}",
+            consumes = MediaType.APPLICATION_JSON_VALUE)
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deletarAluno(@PathVariable UUID id) {
         alunoService.deletarAluno(id);
