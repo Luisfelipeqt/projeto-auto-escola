@@ -1,3 +1,6 @@
+# [![Integração Continua com Github Actions](https://github.com/Luisfelipeqt/projeto-auto-escola/actions/workflows/deploy.yml/badge.svg)](https://github.com/Luisfelipeqt/projeto-auto-escola/actions/workflows/deploy.yml)
+
+
 # Projeto Exemplo com Java 17, Docker, Spring Boot e Swagger
 
 Este é um projeto exemplo que demonstra como configurar uma aplicação usando Java 17, Docker, Spring Boot e Swagger.

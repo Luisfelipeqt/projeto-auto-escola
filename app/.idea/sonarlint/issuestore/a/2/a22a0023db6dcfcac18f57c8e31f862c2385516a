@@ -1,0 +1,16 @@
+
+q
+java:S1128"TRemove this unused import 'com.fasterxml.jackson.databind.PropertyNamingStrategies'.(­ğÇ×8µâ¥ÕŸ1
+f
+java:S1128	"DRemove this unused import 'jakarta.validation.constraints.NotBlank'.(ÕØ¡Õøÿÿÿÿ8²ò¦ÕŸ1
+e
+java:S1128
+"CRemove this unused import 'jakarta.validation.constraints.NotNull'.(Àª•ıÿÿÿÿ8²ò¦ÕŸ1
+d
+java:S1128"GRemove this unused import 'org.hibernate.validator.constraints.br.CPF'.(£ ¦¤8ÃÉ¦ÕŸ1
+M
+java:S1128"+Remove this unused import 'java.io.Serial'.(Ö£€şÿÿÿÿ8§ÿÙÖŸ1
+S
+java:S1128"1Remove this unused import 'java.io.Serializable'.(èãîÂÿÿÿÿÿ8¨ÿÙÖŸ1
+M
+java:S1128"+Remove this unused import 'java.util.UUID'.(ÀãÄ£úÿÿÿÿ8›ãÁÕŸ1
